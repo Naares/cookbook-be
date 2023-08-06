@@ -1,0 +1,26 @@
+{
+  "name": "cookbook-be",
+  "version": "1.0.0",
+  "description": "cookbook app backend",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Naares/cookbook-be.git"
+  },
+  "author": "Jan Kolář",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Naares/cookbook-be/issues"
+  },
+  "homepage": "https://github.com/Naares/cookbook-be#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^7.4.2",
+    "nodemon": "^3.0.1"
+  }
+}
